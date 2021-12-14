@@ -2,6 +2,7 @@
     display: flex;
     padding: 0px 100px 0px 100px;
     padding-top: 200px;
+    justify-content: space-between;
 
 
 }
@@ -18,7 +19,7 @@
 
     h2 {
         color: black;
-        font-size: 52px;
+        font-size: 60px;
         text-transform: uppercase;
         padding: 20px 0px 20px 0px;
     }
@@ -61,8 +62,97 @@
 
 .brathtakingheadertxt {
 
+    padding-top: 80px;
+
     h2 {
         font-size: 60px;
         text-transform: uppercase;
+        max-width: 1100px;
     }
+}
+
+.breathtakingtxt {
+    display: flex;
+    justify-content: space-between;
+    font-size: 49px;
+    padding-top: 30px;
+    p {
+        font-size: 49px;
+        font-weight: 400;
+
+    }
+
+    .breathdiv1 {
+        max-width: 30%;
+    }
+    a {
+        font-size: 34px;
+        color: black;
+    }
+}
+
+.getintouchcard {
+
+    display: flex;
+    padding: 0px 100px 0px 100px;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: space-between;
+    &.start {
+        align-items: initial;
+    }
+
+    img {
+        width: 100%;
+    }
+
+}
+
+.imagesgetintouch01 {
+    width: 33%;
+}
+
+.imagesgetintouch02 {
+    padding-left: 200px;
+    width: 66%;
+}
+
+.imagesgetintouch03 {
+    padding-right: 200px;
+    width: 66%;
+
+}
+
+.imagesgetintouch04 {
+    width: 33%;
+
+}
+
+.getintouchheader {
+
+    padding: 0px 100px 0px 100px;
+    padding-top: 100px;
+
+    h2 {
+        font-size: 60px;
+        text-transform: uppercase;
+        max-width: 1200px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .getintouchlinks {
+        display: flex;
+        padding: 80px 0px;
+        justify-content: center;
+        gap: 150px;
+
+
+        a {
+            
+            font-size: 17px;
+            color: black;
+        }
+    }
+
+
 }
