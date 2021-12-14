@@ -614,6 +614,107 @@ footer {
   color: black;
 }
 
+.aboutthemuseum {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 100px 0px 100px;
+  padding-top: 200px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aboutthemuseum .abouthemuseumtxt {
+  max-width: 900px;
+}
+
+.aboutthemuseum .abouthemuseumtxt h2 {
+  font-size: 60px;
+}
+
+.aboutthemuseum .abouthemuseumtxt p {
+  padding-top: 20px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.aboutthemuseum .abouthemuseumtxt .aboutthemuseumlink {
+  padding-top: 20px;
+}
+
+.aboutthemuseum .abouthemuseumtxt .aboutthemuseumlink a {
+  color: black;
+}
+
+.impressivecard {
+  padding: 0px 100px 0px 100px;
+  padding-top: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.impressivetxt h2 {
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 1200px;
+  font-size: 50px;
+  margin: 0 auto;
+}
+
+.impressivetxt p {
+  padding-top: 40px;
+  padding-bottom: 80px;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 400;
+  max-width: 1200px;
+}
+
+.impressiveimg01 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding-bottom: 80px;
+}
+
+.impressiveimg02 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.auniqueplacetxt {
+  padding: 80px 0px;
+}
+
+.auniqueplacetxt h2 {
+  text-transform: uppercase;
+  font-size: 50px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;

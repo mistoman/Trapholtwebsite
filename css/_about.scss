@@ -1,0 +1,86 @@
+.aboutthemuseum {
+    display: flex;
+    padding: 0px 100px 0px 100px;
+    padding-top: 200px;
+    justify-content: space-between;
+
+    .abouthemuseumtxt {
+        max-width: 900px;
+
+        h2{
+            font-size: 60px;
+        }
+
+        p{
+            padding-top: 20px;
+            font-size: 22px;
+            font-weight: 400;
+        }
+        .aboutthemuseumlink {
+            padding-top: 20px;
+            a {
+                
+                color: black;
+
+            }
+            
+        }
+    }
+}
+
+.impressivecard {
+
+    padding: 0px 100px 0px 100px;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.impressivetxt {
+    
+    h2{
+        text-transform: uppercase;
+        text-align: center;
+        max-width: 1200px;
+        font-size: 50px;
+        margin: 0 auto;
+    }
+
+    p{
+        padding-top: 40px;
+        padding-bottom: 80px;
+
+        text-align: center;
+        font-size: 42px;
+        font-weight: 400;
+        max-width: 1200px;
+
+    }
+}
+
+.impressiveimg01 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+.impressiveimg02 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.auniqueplacetxt {
+    padding: 80px 0px;
+    h2{
+        text-transform: uppercase;
+        font-size: 50px;
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
