@@ -438,6 +438,15 @@ footer {
   list-style: none;
 }
 
+.contactusinfo p {
+  font-size: 23px;
+}
+
+.contactusinfo h2 {
+  font-size: 60px;
+  max-width: 500px;
+}
+
 .aboutusimg {
   padding: 0px 100px 0px 100px;
 }
