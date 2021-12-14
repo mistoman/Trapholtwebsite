@@ -1,0 +1,31 @@
+@import 'fonts';//frontpage scss
+@import 'frontpage';//frontpage scss
+@import 'exhibitionpage';//frontpage scss
+@import 'aboutus';//frontpage scss
+@import 'events';//frontpage scss
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px; 
+    text-decoration: none;
+    
+  }
+
+body {
+    background-color: #fafafa;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  width: 100%;
+}
+
+

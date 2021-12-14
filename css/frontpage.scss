@@ -1,0 +1,303 @@
+h1 {
+    font-size: 90px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 100px 10px 100px;
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    .inverted a li {
+        color: white;
+    }
+    .inverted a img {
+        filter: invert(1);
+    }
+
+}
+
+
+
+.navagationlogo img {
+    width: 315;
+    max-height: 40px;
+}
+
+#menuol {
+    justify-content: right;
+    align-items: center;
+
+
+    box-sizing: border-box;
+    display: flex;
+    gap: 20px;
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+
+}
+
+#menuol ol {
+
+    display: flex;
+    list-style: none;
+    color: black;
+    
+}
+
+#menuol a {
+    
+    color: black;
+    display: flex;
+    list-style: none;
+    gap: 0px;
+
+    &:hover {
+        color: rgb(169, 172, 0);
+    }
+}
+
+.firsttxt {
+    padding-top: 110px;
+    padding-left: 120px;
+}
+.firsttxt p {
+    font-weight: lighter;
+    font-size: 35px;
+}
+
+.secendtxt {
+    padding-top: 20px;
+    padding-left: 120px;
+    padding-bottom: 30px;
+    width: 900px;
+}
+
+.secendtxt p {
+    font-weight: 300;
+
+}
+
+.heroimg {
+    display: flex;
+    justify-content: center;
+}
+
+.mainimg {
+    padding-top: 10px;
+    
+    justify-content: center;
+    
+
+}
+
+.mainimg img {
+    width: 90%;
+    height: 1032px;
+    align-content: center;
+    justify-content: center;
+}
+
+//top is nav and welcome to trapholt
+
+
+//below is sliding card
+
+.exibitionscard {
+    padding-top: 160px;
+    padding-left: 120px;
+}
+
+
+
+.exibitionscard h2 {
+    font-size: 69px;
+}
+
+.spincardcontainer {
+
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+
+}
+
+.spincard01 {
+    padding-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fafafa;
+
+}
+
+.cardimg {
+    width: 629px;
+    height: 608px;
+
+}
+
+.cardtemptxt {
+    padding-top: 24px;
+    background-color: #fafafa;
+}
+
+.cardtemptxt p{
+    font-weight: lighter;
+    font-size: 24px;
+
+}
+
+.cardheadertxt {
+    display: flex;
+    padding-top: 44px;
+    background-color: #fafafa;
+    width: 555px;
+
+
+}
+
+.cardheadertxt h3{
+    text-align: center;
+    font-size: 44px;
+
+}
+
+.carddate {
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+
+
+}
+
+// end of slidercard
+
+.eventspacecard {
+    padding-top: 280px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #fafafa;
+    
+}
+.eventheadercard {
+
+    display: flex;
+
+}
+
+.eventheader {
+    padding-left: 120px;
+
+    width: 800px;
+}
+
+.eventheader h2 {
+    font-size: 69px;
+}
+
+.eventpara {
+
+    width: 700px;
+}
+
+.eventpara p {
+    font-size: 69px;
+    font-weight: lighter;
+}
+
+.eventimagecard {
+    padding-top: 160px;
+    display: flex;
+}
+
+.eventimagecard img {
+    width: 1800px;
+    height: 1032px;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+
+.trapholtfooter {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    font-weight: lighter;
+    padding: 80px;
+    padding-bottom: 0px;
+
+    color: white;
+    h2 {
+        color: white;
+        text-align: left;
+        
+    }
+    h3 {
+        color: white;
+        text-align: left;
+
+
+    }
+    li {
+        color: white;
+        font-weight: lighter;
+        padding-top: 20px;
+
+
+
+        list-style: none;
+    }
+    a {
+        color: white;
+        font-weight: lighter;
+
+
+    }
+}
+
+.contactinfo {
+    display: flex;
+    
+    flex-direction: column;
+    padding-top: 0px;
+    
+    h3 {
+        padding-top: 40px;
+    }
+}
+
+.pagesinfo {
+    padding-top: 68.5px;
+    padding-left: 100px;
+}
+
+.followusinfo {
+    padding-top: 68.5px;
+    padding-left: 600px;
+
+}
+
+.footerrights {
+    width: 100%;
+    padding: 15px 80px 15px 80px;
+    text-align: center;
+    hr {
+        margin: 30px 0px;
+    }
+}

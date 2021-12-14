@@ -1,0 +1,33 @@
+.aboutuscard {
+  width: 100%;
+  height: 1000px;
+  padding: 110px;
+  padding-top: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contactusinfo {
+  padding: 0;
+}
+
+.contactusinfo li {
+  list-style: none;
+}
+
+.aboutusimg {
+  padding: 0px 100px 0px 100px;
+}
+
+.aboutusimg img {
+  width: 904px;
+  height: 603px;
+}
+/*# sourceMappingURL=aboutus.css.map */
