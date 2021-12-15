@@ -37,15 +37,25 @@ h1 {
   left: 0;
   right: 0;
   z-index: 1;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
 }
 
-.nav .inverted a li {
+.nav .inverted a {
   color: white;
 }
 
 .nav .inverted a img {
   -webkit-filter: invert(1);
           filter: invert(1);
+}
+
+.nav.scrolled.inverted {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+
+.nav.scrolled {
+  background-color: rgba(250, 250, 250, 0.95);
 }
 
 .navagationlogo img {
@@ -68,7 +78,6 @@ h1 {
   gap: 20px;
   font-size: 19px;
   text-decoration: none;
-  color: black;
 }
 
 #menuol ol {
@@ -76,41 +85,62 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   list-style: none;
-  color: black;
+}
+
+.inverted #menuol a {
+  color: white;
 }
 
 #menuol a {
-  color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   list-style: none;
   gap: 0px;
+  color: black;
 }
 
 #menuol a:hover {
   color: #a9ac00;
 }
 
-.firsttxt {
-  padding-top: 110px;
-  padding-left: 120px;
+.mainimg {
+  padding: 0px 100px 0px 100px;
+  padding-top: 200px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainimg img {
+  width: 100%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .firsttxt p {
-  font-weight: lighter;
   font-size: 35px;
+  font-weight: 400;
 }
 
 .secendtxt {
-  padding-top: 20px;
-  padding-left: 120px;
-  padding-bottom: 30px;
-  width: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
-.secendtxt p {
-  font-weight: 300;
+.secendtxt h1 {
+  font-size: 110px;
+}
+
+.secendtxt img {
+  width: 10%;
 }
 
 .heroimg {
@@ -120,28 +150,12 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.mainimg {
-  padding-top: 10px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.mainimg img {
-  width: 90%;
-  height: 1032px;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  padding-top: 60px;
 }
 
 .exibitionscard {
+  padding: 0px 100px 0px 100px;
   padding-top: 160px;
-  padding-left: 120px;
 }
 
 .exibitionscard h2 {
@@ -174,8 +188,7 @@ h1 {
 }
 
 .cardimg {
-  width: 629px;
-  height: 608px;
+  width: 100%;
 }
 
 .cardtemptxt {
@@ -204,12 +217,28 @@ h1 {
 
 .carddate {
   margin-top: 30px;
+  padding: 5px 5px;
   background-color: black;
   color: white;
 }
 
+.alleventscontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 80px;
+}
+
+.alleventscontainer button {
+  width: 50%;
+  padding: 40px 0px;
+  font-size: 34px;
+  text-transform: uppercase;
+}
+
 .eventspacecard {
-  padding-top: 280px;
+  padding: 0px 100px 0px 100px;
+  padding-top: 160px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -227,11 +256,12 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .eventheader {
-  padding-left: 120px;
-  width: 800px;
+  width: 50%;
 }
 
 .eventheader h2 {
@@ -239,7 +269,7 @@ h1 {
 }
 
 .eventpara {
-  width: 700px;
+  width: 50%;
 }
 
 .eventpara p {
@@ -336,6 +366,51 @@ footer {
 
 .footerrights hr {
   margin: 30px 0px;
+}
+
+.trapholtstorycontainer {
+  padding-top: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.trapholtstorycontainer .trapholtstorytxt {
+  padding: 300px 100px 300px 100px;
+  background-color: gold;
+  width: 100%;
+}
+
+.trapholtstorycontainer .trapholtstorytxt h2 {
+  font-size: 52px;
+  text-transform: uppercase;
+}
+
+.trapholtstorycontainer .trapholtstorytxt p {
+  font-size: 20;
+  font-weight: 400;
+  max-width: 100%;
+}
+
+.trapholtstorycontainer .trapholtstorytxt a {
+  font-size: 17px;
+  color: black;
+}
+
+.trapholtstorycontainer .trapholtstoryimg {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 30%;
+}
+
+.trapholtstorycontainer .trapholtstoryimg img {
+  width: 100%;
 }
 
 .exhibitionpageimg {

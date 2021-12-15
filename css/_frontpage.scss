@@ -12,11 +12,20 @@ h1 {
     left: 0;
     right: 0;
     z-index: 1;
-    .inverted a li {
+    transition: all .3s ease;
+    .inverted a {
         color: white;
     }
     .inverted a img {
         filter: invert(1);
+    }
+
+    &.scrolled.inverted {
+        background-color: rgba($color: #000000, $alpha: 0.95);
+    }
+
+    &.scrolled {
+        background-color: rgba($color: #fafafa, $alpha: 0.95);
     }
 
 }
@@ -38,7 +47,6 @@ h1 {
     gap: 20px;
     font-size: 19px;
     text-decoration: none;
-    color: black;
 
 }
 
@@ -46,50 +54,32 @@ h1 {
 
     display: flex;
     list-style: none;
-    color: black;
+
     
+}
+
+.inverted #menuol a {
+    color: white;
+
 }
 
 #menuol a {
     
-    color: black;
     display: flex;
     list-style: none;
     gap: 0px;
+    color: black;
 
     &:hover {
         color: rgb(169, 172, 0);
     }
 }
 
-.firsttxt {
-    padding-top: 110px;
-    padding-left: 120px;
-}
-.firsttxt p {
-    font-weight: lighter;
-    font-size: 35px;
-}
-
-.secendtxt {
-    padding-top: 20px;
-    padding-left: 120px;
-    padding-bottom: 30px;
-    width: 900px;
-}
-
-.secendtxt p {
-    font-weight: 300;
-
-}
-
-.heroimg {
-    display: flex;
-    justify-content: center;
-}
-
 .mainimg {
-    padding-top: 10px;
+
+    padding: 0px 100px 0px 100px;
+    padding-top: 200px;
+
     
     justify-content: center;
     
@@ -97,11 +87,43 @@ h1 {
 }
 
 .mainimg img {
-    width: 90%;
-    height: 1032px;
+    width: 100%;
     align-content: center;
     justify-content: center;
 }
+
+.firsttxt {
+    p {
+        font-size: 35px;
+        font-weight: 400;
+
+    }
+}
+
+.secendtxt {
+
+    display: flex;
+    align-items: flex-end;
+    h1 {
+        font-size: 110px;
+    }
+
+    img {
+        width: 10%;
+    
+
+    }
+    
+
+}
+
+.heroimg {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+
 
 //top is nav and welcome to trapholt
 
@@ -109,8 +131,8 @@ h1 {
 //below is sliding card
 
 .exibitionscard {
+    padding: 0px 100px 0px 100px;
     padding-top: 160px;
-    padding-left: 120px;
 }
 
 
@@ -137,9 +159,7 @@ h1 {
 }
 
 .cardimg {
-    width: 629px;
-    height: 608px;
-
+    width: 100%;
 }
 
 .cardtemptxt {
@@ -170,16 +190,30 @@ h1 {
 
 .carddate {
     margin-top: 30px;
+    padding: 5px 5px;
     background-color: black;
     color: white;
 
 
 }
 
+.alleventscontainer {
+    display: flex;
+    padding-top: 80px;
+    button {
+        width: 50%;
+        padding: 40px 0px;
+        font-size: 34px;
+        text-transform: uppercase;
+    }
+
+}
+
 // end of slidercard
 
 .eventspacecard {
-    padding-top: 280px;
+    padding: 0px 100px 0px 100px;
+    padding-top: 160px;
     
     display: flex;
     flex-direction: column;
@@ -191,13 +225,13 @@ h1 {
 .eventheadercard {
 
     display: flex;
+    flex-wrap: wrap;
 
 }
 
 .eventheader {
-    padding-left: 120px;
 
-    width: 800px;
+    width: 50%;
 }
 
 .eventheader h2 {
@@ -206,7 +240,7 @@ h1 {
 
 .eventpara {
 
-    width: 700px;
+    width: 50%;
 }
 
 .eventpara p {
@@ -299,5 +333,46 @@ footer {
     text-align: center;
     hr {
         margin: 30px 0px;
+    }
+}
+
+.trapholtstorycontainer {
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    max-width: 100%;
+
+    .trapholtstorytxt {
+        padding: 300px 100px 300px 100px;
+        background-color: gold;
+        width: 100%;
+        h2 {
+            font-size: 52px;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 20;
+            font-weight: 400;
+            max-width: 100%;
+        }
+        a {
+            font-size: 17px;
+            color: black;
+        }
+    }
+
+    .trapholtstoryimg {
+
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        width: 30%;
+        img {
+            width: 100%;
+        }
     }
 }
