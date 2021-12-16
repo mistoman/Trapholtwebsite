@@ -30,17 +30,53 @@
 
 }
 
-
-
-
-
-
-
-
 .aboutusimg {
 
 
     img {
         width: 100%;
     }
+}
+
+@media screen and (max-width: 640px) {
+
+    .aboutuscard {
+        padding-top: 100px;
+        
+    
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contactusinfo {
+
+        li{
+            list-style: none;
+        }
+    
+        p {
+            font-size: 20px;
+        }
+    
+    
+    
+        h2 {
+
+            padding: 10px 0px;
+    
+            font-size: 36px;
+    
+        }
+    
+    }
+
+    .aboutusimg {
+        padding-top: 20px;
+
+
+        img {
+            width: 100%;
+        }
+    }
+
 }

@@ -834,6 +834,35 @@ h1 {
   width: 100%;
 }
 
+@media screen and (max-width: 640px) {
+  .aboutuscard {
+    padding-top: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contactusinfo li {
+    list-style: none;
+  }
+  .contactusinfo p {
+    font-size: 20px;
+  }
+  .contactusinfo h2 {
+    padding: 10px 0px;
+    font-size: 36px;
+  }
+  .aboutusimg {
+    padding-top: 20px;
+  }
+  .aboutusimg img {
+    width: 100%;
+  }
+}
+
 .weddingcard {
   display: -webkit-box;
   display: -ms-flexbox;

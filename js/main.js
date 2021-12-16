@@ -131,6 +131,11 @@ function toggleNav() {
 window.onresize = function() {recalculateSlide()};
 
 function recalculateSlide() {
+
+    if (!document.querySelector(".arrow-right")) {
+        return;
+    }
+
     if (window.innerWidth <= 640) {
         if (currentSlide >= maxSlides - 1) {
             document.querySelector(".arrow-right").classList.add("hidden");
