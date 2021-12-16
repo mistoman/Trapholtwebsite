@@ -755,6 +755,7 @@ h1 {
   font-size: 44px;
   margin-bottom: 26px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .firstimgtxt p {
@@ -804,9 +805,7 @@ h1 {
 
 .aboutuscard {
   width: 100%;
-  height: 1000px;
-  padding: 110px;
-  padding-top: 300px;
+  padding-top: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -816,10 +815,6 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.contactusinfo {
-  padding: 0;
 }
 
 .contactusinfo li {
@@ -835,13 +830,8 @@ h1 {
   max-width: 500px;
 }
 
-.aboutusimg {
-  padding: 0px 100px 0px 100px;
-}
-
 .aboutusimg img {
-  width: 904px;
-  height: 603px;
+  width: 100%;
 }
 
 .weddingcard {
@@ -1133,7 +1123,6 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0px 100px 0px 100px;
   padding-top: 200px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -1146,6 +1135,7 @@ h1 {
 
 .aboutthemuseum .abouthemuseumtxt h2 {
   font-size: 60px;
+  text-transform: uppercase;
 }
 
 .aboutthemuseum .abouthemuseumtxt p {
@@ -1163,7 +1153,6 @@ h1 {
 }
 
 .impressivecard {
-  padding: 0px 100px 0px 100px;
   padding-top: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1228,6 +1217,82 @@ h1 {
   text-align: center;
   max-width: 800px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 640px) {
+  .aboutthemuseum {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 100px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .aboutthemuseum .abouthemuseumtxt {
+    max-width: 900px;
+  }
+  .aboutthemuseum .abouthemuseumtxt h2 {
+    font-size: 36px;
+  }
+  .aboutthemuseum .abouthemuseumtxt p {
+    font-size: 20px;
+  }
+  .aboutthemuseum .abouthemuseumtxt .aboutthemuseumlink {
+    padding-bottom: 20px;
+  }
+  .impressivecard {
+    padding-top: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .impressivetxt h2 {
+    max-width: 1200px;
+    font-size: 30px;
+  }
+  .impressivetxt p {
+    padding-top: 40px;
+    padding-bottom: 80px;
+    font-size: 24px;
+    max-width: 1200px;
+  }
+  .impressiveimg01 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: initial;
+  }
+  .impressiveimg02 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .auniqueplacetxt {
+    padding: 30px 0px;
+  }
+  .auniqueplacetxt h2 {
+    font-size: 30px;
+  }
+  .getintouchheader h2 {
+    font-size: 30px;
+  }
 }
 
 nav {

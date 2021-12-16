@@ -1,6 +1,6 @@
 .aboutthemuseum {
     display: flex;
-    padding: 0px 100px 0px 100px;
+
     padding-top: 200px;
     justify-content: space-between;
 
@@ -9,6 +9,7 @@
 
         h2{
             font-size: 60px;
+            text-transform: uppercase;
         }
 
         p{
@@ -30,7 +31,7 @@
 
 .impressivecard {
 
-    padding: 0px 100px 0px 100px;
+
     padding-top: 200px;
     display: flex;
     flex-direction: column;
@@ -83,4 +84,92 @@
         max-width: 800px;
         margin: 0 auto;
     }
+}
+
+@media screen and (max-width: 640px) {
+
+    .aboutthemuseum {
+        display: flex;
+    
+        padding-top: 100px;
+        flex-direction: column;
+    
+        .abouthemuseumtxt {
+            max-width: 900px;
+    
+            h2{
+                font-size: 36px;
+            }
+    
+            p{
+                font-size: 20px;
+            }
+            .aboutthemuseumlink {
+                padding-bottom: 20px;
+                
+            }
+        }
+    }
+    
+    .impressivecard {
+    
+    
+        padding-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .impressivetxt {
+        
+        h2{
+            max-width: 1200px;
+            font-size: 30px;
+            
+        }
+    
+        p{
+            padding-top: 40px;
+            padding-bottom: 80px;
+    
+            font-size: 24px;
+            max-width: 1200px;
+    
+        }
+    }
+    
+    .impressiveimg01 {
+        flex-direction: column;
+        padding-bottom: initial;
+    }
+    
+    .impressiveimg02 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .auniqueplacetxt {
+        padding: 30px 0px;
+        h2{
+            font-size: 30px;
+        }
+    }
+
+    .getintouchheader {
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+
+
+
+
+
+
+
+
 }
