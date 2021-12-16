@@ -67,6 +67,10 @@
     justify-content: space-between;
     width: 100%;
     padding-bottom: 80px;
+
+    img {
+        width: 50%;
+    }
 }
 
 .impressiveimg02 {
@@ -143,6 +147,10 @@
     .impressiveimg01 {
         flex-direction: column;
         padding-bottom: initial;
+        
+        img {
+            width: 100%;
+        }
     }
     
     .impressiveimg02 {

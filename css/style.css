@@ -1197,6 +1197,10 @@ h1 {
   padding-bottom: 80px;
 }
 
+.impressiveimg01 img {
+  width: 50%;
+}
+
 .impressiveimg02 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1274,6 +1278,9 @@ h1 {
         -ms-flex-direction: column;
             flex-direction: column;
     padding-bottom: initial;
+  }
+  .impressiveimg01 img {
+    width: 100%;
   }
   .impressiveimg02 {
     display: -webkit-box;
