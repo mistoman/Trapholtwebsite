@@ -59,10 +59,12 @@
 
     .firstimgtxt {
 
+        padding: 0px 10px;
+
     
         h2 {
 
-            font-size: 28px;
+            font-size: 24px;
 
         }
         p{
@@ -71,6 +73,8 @@
 
         }
         .firstlinkread {
+
+            justify-content: space-evenly;
 
             a{
                 font-size: 14px;
