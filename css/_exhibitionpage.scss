@@ -58,6 +58,19 @@
 
 @media screen and (max-width: 992px) {
 
+
+    .exhibitionpageimg{
+        min-height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        img {
+            width: 175%;
+            
+        }
+    }
+
     .firstimgtxt {
 
         padding: 0px 10px;
